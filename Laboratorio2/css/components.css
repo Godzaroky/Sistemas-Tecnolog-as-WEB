@@ -22,9 +22,3 @@ a:hover {
 a:active {
   transform: scale(0.95);
 }
-
-/* Accesibilidad teclado */
-a:focus-visible {
-  outline: 3px solid var(--color-decision);
-  outline-offset: 3px;
-}
