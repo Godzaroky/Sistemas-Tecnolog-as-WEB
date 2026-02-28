@@ -5,20 +5,20 @@
   --font-body: 'Special Elite', monospace;
 
   /* Estado: Inicio */
-  --color-primary: #2aff2a;
+  --color-primary: #960303;
   --color-secondary: rgb(153, 14, 14);
-  --color-background: #0b0f0c;
-  --color-surface: #132013;
+  --color-background: #515551;
+  --color-surface: #be9d7c;
 
   /* Estado: Decisión */
   --color-decision: #ffd900;
 
   /* Estado: Final */
-  --color-ending: #ff3b3b;
+  --color-ending: #830000;
 
   /* Generales */
-  --color-text: #e8ffe8;
-  --color-border: #39ff14;
+  --color-text: #000000;
+  --color-border: #000000;
 
   --spacing-lg: 2rem;
   --spacing-md: 1.2rem;
