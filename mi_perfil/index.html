@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Tarjeta de Perfil</h1>
+
+<!-- BOTONES -->
+<button onclick="mostrarEtiquetas(habilidades)">
+    Mostrar habilidades
+</button>
+
+<button onclick="cargarUsuarios()">
+    Cargar usuarios
+</button>
+
+<!-- ESTADO FETCH -->
+<p id="estado"></p>
+
+<!-- CONTENEDOR DE USUARIOS -->
+ <div id="perfil">
+    <img id="avatar" width="100">
+
+    <h2 id="nombre"></h2>
+    <p id="usuario"></p>
+    <p id="email"></p>
+    <p id="ciudad"></p>
+</div>
+
+<!-- CONTENEDOR DE HABILIDADES -->
+<div>
+    <h3>Habilidades:</h3>
+    <div id="etiquetas"></div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

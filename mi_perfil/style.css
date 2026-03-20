@@ -1,0 +1,12 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card img {
+    border-radius: 50%;
+}
